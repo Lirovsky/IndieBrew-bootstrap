@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #664efc;
+    transition: all .5s;
+}
+a:hover, .nav-link:hover {
+    color: #3618f6;
+}
+.btn {
+    transition: all .5s;
+}
+.btn:hover {
+    transform: translateY(-5px);
+}
+.bg-gray {
+    background-color: #edf6f6;
+}
+.font-bold {
+    font-weight: bold;
+}
+.font-gray {
+    color: #959595;
+}
+/* SECTION 1*/
+#section-1 h1 {
+    font-size: 3rem;
+}
+#section-1 p span {
+    color: #664efc;
+}
+/* SECTION 2*/
+#section-2 h2 {
+    font-size: 2rem;
+}
+/* FOOTER*/
+#footer ul {
+    list-style: none;
+    margin-left: -30px;
+}
+#footer ul p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#footer ul a {
+    color: #959595;
+}
+#footer ul a:hover {
+    color: #3618f6;
+}
